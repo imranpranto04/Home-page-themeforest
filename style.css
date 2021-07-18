@@ -1,0 +1,114 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.header-top{
+    height: 700px;
+    background-image: url(images/bg-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+
+}
+.jevelin{
+   margin: 0px;
+   padding: 20px;
+}
+
+.header-text{
+    margin: 15%;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-italic{
+    font-style: italic;
+}
+.blog-content{
+ 
+    /* height:400px; */
+    padding: 60px;
+
+}
+.blog{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    /* grid-gap: 20px; */ 
+    box-shadow: 10px 10px 20px gray;
+    margin: 20px;
+}
+.firstBlog{
+    position: relative;
+    top: -120px;
+}
+.blog-image{
+    height: 400px;
+}
+.blog-image:hover{
+    height:420px;
+    transition: height .5s ease .1s;
+}
+.blog-text{
+    padding: 70px;
+}
+.text-color{
+    color: gray;
+}
+
+.gears-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 60px;
+}
+.gears-img{
+    height: 280px;
+    width: 100%;
+}
+.gears-card{
+    padding: 10px;
+    box-shadow: 10px 10px 20px gray;
+
+}
+
+.footer-part{
+    background-color: rgb(39, 38, 38);
+    color: white;
+    padding: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.post{
+    display: flex;
+}
+.post img{
+    height: 70px;
+    border-radius: 50%;
+}
+.button-click{
+    /* background-image: linear-gradient(360deg,lightsalmon,tomato); */
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    text-align: center;
+}
+.tags{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.button-click:hover{
+    background-color: blue;
+}
